@@ -22,7 +22,7 @@ const sendMail=(req,res)=>{
             from:email,
             to: mailTo,
             subject:"Assignment Nodejs",
-            text:"This is send thrtough nodemailer by your Deepika Dinesh email:deepadinesh2011@gmail.com"
+            text:"This is send through nodemailer by Deepika Dinesh, email:deepadinesh2011@gmail.com"
           };
           
           console.log(message);
